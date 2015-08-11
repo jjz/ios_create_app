@@ -11,13 +11,13 @@
 		B2FAA0511B79F9BC00F46A93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAA0501B79F9BC00F46A93 /* AppDelegate.m */; };
 		B2FAA0591B79F9BD00F46A93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA0581B79F9BD00F46A93 /* Images.xcassets */; };
 		B2FAA0681B79F9BD00F46A93 /* create_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAA0671B79F9BD00F46A93 /* create_appTests.m */; };
-		B2FAA0941B79FD4B00F46A93 /* api.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA0841B79FD4B00F46A93 /* api.readme */; };
 		B2FAA0951B79FD4B00F46A93 /* config.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA0861B79FD4B00F46A93 /* config.readme */; };
 		B2FAA0961B79FD4B00F46A93 /* model.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA0881B79FD4B00F46A93 /* model.readme */; };
 		B2FAA0971B79FD4B00F46A93 /* cells.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA08B1B79FD4B00F46A93 /* cells.readme */; };
 		B2FAA0981B79FD4B00F46A93 /* controllers.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA08D1B79FD4B00F46A93 /* controllers.readme */; };
 		B2FAA0991B79FD4B00F46A93 /* dialog.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA08F1B79FD4B00F46A93 /* dialog.readme */; };
 		B2FAA09A1B79FD4B00F46A93 /* widget.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA0911B79FD4B00F46A93 /* widget.readme */; };
+		B2FAA09D1B79FDBF00F46A93 /* api.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA09C1B79FDBF00F46A93 /* api.readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +40,13 @@
 		B2FAA0611B79F9BD00F46A93 /* create_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = create_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FAA0661B79F9BD00F46A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2FAA0671B79F9BD00F46A93 /* create_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = create_appTests.m; sourceTree = "<group>"; };
-		B2FAA0841B79FD4B00F46A93 /* api.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = api.readme; sourceTree = "<group>"; };
 		B2FAA0861B79FD4B00F46A93 /* config.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.readme; sourceTree = "<group>"; };
 		B2FAA0881B79FD4B00F46A93 /* model.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model.readme; sourceTree = "<group>"; };
 		B2FAA08B1B79FD4B00F46A93 /* cells.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cells.readme; sourceTree = "<group>"; };
 		B2FAA08D1B79FD4B00F46A93 /* controllers.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = controllers.readme; sourceTree = "<group>"; };
 		B2FAA08F1B79FD4B00F46A93 /* dialog.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dialog.readme; sourceTree = "<group>"; };
 		B2FAA0911B79FD4B00F46A93 /* widget.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = widget.readme; sourceTree = "<group>"; };
+		B2FAA09C1B79FDBF00F46A93 /* api.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = api.readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 		B2FAA04A1B79F9BC00F46A93 /* create_app */ = {
 			isa = PBXGroup;
 			children = (
-				B2FAA0831B79FD4B00F46A93 /* api */,
+				B2FAA09B1B79FDBF00F46A93 /* http */,
 				B2FAA0851B79FD4B00F46A93 /* config */,
 				B2FAA0871B79FD4B00F46A93 /* model */,
 				B2FAA0891B79FD4B00F46A93 /* uibase */,
@@ -125,14 +125,6 @@
 				B2FAA0661B79F9BD00F46A93 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B2FAA0831B79FD4B00F46A93 /* api */ = {
-			isa = PBXGroup;
-			children = (
-				B2FAA0841B79FD4B00F46A93 /* api.readme */,
-			);
-			path = api;
 			sourceTree = "<group>";
 		};
 		B2FAA0851B79FD4B00F46A93 /* config */ = {
@@ -207,6 +199,14 @@
 			children = (
 			);
 			path = categroy;
+			sourceTree = "<group>";
+		};
+		B2FAA09B1B79FDBF00F46A93 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				B2FAA09C1B79FDBF00F46A93 /* api.readme */,
+			);
+			path = http;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FAA0941B79FD4B00F46A93 /* api.readme in Resources */,
+				B2FAA09D1B79FDBF00F46A93 /* api.readme in Resources */,
 				B2FAA0971B79FD4B00F46A93 /* cells.readme in Resources */,
 				B2FAA0961B79FD4B00F46A93 /* model.readme in Resources */,
 				B2FAA0981B79FD4B00F46A93 /* controllers.readme in Resources */,
