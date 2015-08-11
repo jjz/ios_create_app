@@ -18,6 +18,7 @@
 		B2FAA0991B79FD4B00F46A93 /* dialog.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA08F1B79FD4B00F46A93 /* dialog.readme */; };
 		B2FAA09A1B79FD4B00F46A93 /* widget.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA0911B79FD4B00F46A93 /* widget.readme */; };
 		B2FAA09D1B79FDBF00F46A93 /* api.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA09C1B79FDBF00F46A93 /* api.readme */; };
+		B2FAA09F1B79FE0600F46A93 /* category.readme in Resources */ = {isa = PBXBuildFile; fileRef = B2FAA09E1B79FE0600F46A93 /* category.readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B2FAA08F1B79FD4B00F46A93 /* dialog.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dialog.readme; sourceTree = "<group>"; };
 		B2FAA0911B79FD4B00F46A93 /* widget.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = widget.readme; sourceTree = "<group>"; };
 		B2FAA09C1B79FDBF00F46A93 /* api.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = api.readme; sourceTree = "<group>"; };
+		B2FAA09E1B79FE0600F46A93 /* category.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = category.readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 		B2FAA0931B79FD4B00F46A93 /* categroy */ = {
 			isa = PBXGroup;
 			children = (
+				B2FAA09E1B79FE0600F46A93 /* category.readme */,
 			);
 			path = categroy;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			files = (
 				B2FAA09D1B79FDBF00F46A93 /* api.readme in Resources */,
 				B2FAA0971B79FD4B00F46A93 /* cells.readme in Resources */,
+				B2FAA09F1B79FE0600F46A93 /* category.readme in Resources */,
 				B2FAA0961B79FD4B00F46A93 /* model.readme in Resources */,
 				B2FAA0981B79FD4B00F46A93 /* controllers.readme in Resources */,
 				B2FAA0991B79FD4B00F46A93 /* dialog.readme in Resources */,
